@@ -1,0 +1,258 @@
+* {
+  /* all the element get this value (universal selector)*/
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  margin-bottom: 5px;
+}
+
+li {
+  padding: 0px 10px;
+}
+
+.navLeft {
+  padding: 5px 5vw;
+  margin-top: 5px;
+}
+
+.navLeft>img {
+  /* size of logo */
+  width: 250px;
+  height: 70px;
+}
+
+.navRight {
+  /*giving margin to all route*/
+  margin-top: 25px;
+  padding-right: 10px;
+}
+
+/* footer  */
+.footer {
+  width: 100%;
+  height: 50vh;
+}
+
+.footertop {
+  display: grid;
+  grid-template-columns: 30% 15% 15% 30%;
+  justify-content: center;
+  background-color: #dddfe1;
+}
+
+.footerSame {
+  padding: 80px 30px;
+}
+
+.footercontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footercontent>a {
+  padding-top: 10px;
+  color: black;
+}
+
+.footercontent>a:hover {
+  color: tomato;
+}
+
+.footerbottom{
+  background-color: black;
+  color: #dddfe1;
+  height: 50px;
+  padding-left: 8vw;
+  padding-top: 15px;
+}
+
+
+/* home page   */
+.homeFirst {
+  width: 100%;
+  height: 75vh;
+  background-image: url('https://media.istockphoto.com/id/942161774/video/group-of-young-friends-phubbing-each-other-at-home.jpg?s=640x640&k=20&c=lMYjvaP09QGiXESQ72XZgs9mOEd8edbMAwHaBSMjP8E=');
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  margin-bottom: 20px;
+}
+
+.homeFirstParent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 15vw;
+}
+
+.homeFirstParent>span {
+  font-size: 32px;
+  font-weight: 650;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+/* who we are  */
+.who{
+  display: grid;
+  grid-template-columns: 40% 15%;
+  padding-left: 12vw;
+  margin: 5vw;
+}
+
+.who>img{
+  width: 13vw;
+  height: 13vw;
+}
+.hrtop{
+  height: 5px;
+  background-color: tomato;
+  position: relative;
+  top: 12px;
+}
+.whosame{
+  padding:20px 10px;
+}
+.hrbottom{
+  width: 170%;
+  height: 50px;
+  background-color: green;
+  position: relative;
+  left: 10vw;
+  bottom: 30px;
+}
+
+/* contact page  */
+.contact{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-content: center;
+  border: 3px solid black;
+  margin: 20px 20vw;
+  border-radius: 8px;
+}
+.contactLeft{
+  text-align: center;
+  margin: 20px;
+  border-right: 5px solid #dddfe1;
+}
+.contactRight{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+
+/* where we are  */
+
+.where{
+  padding:2vw 17vw;
+  background-color: #B618C8;
+  color: whitesmoke;
+}
+
+/* TEENS FOR TECH  */
+.cards{
+  padding:3vw 17vw;
+  background-color: #CCC3CD;
+}
+.allcard{
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* card top to bottom */
+
+.card1{
+  width: 12vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.cardnumber1{
+  font-size: 32px;
+  font-weight: 700;
+  width: 32%;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #CCC3CD;
+  position: relative;
+  left: 34%;
+  top: 30px;
+}
+.cardblank1{
+  height: 40px;
+  background-color: rgb(9, 9, 83);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cardicon1{
+  font-size: 60px;
+  margin: 10px 32%;
+  color: rgb(41, 41, 155);
+}
+
+.gridient1{
+  background-image: linear-gradient(whitesmoke,#CCC3CD);
+}
+
+/* card bottom to top */
+.card2{
+  width: 12vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.cardnumber2{
+  font-size: 32px;
+  font-weight: 700;
+  width: 32%;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #CCC3CD;
+  position: relative;
+  left: 34%;
+  bottom: 30px;
+}
+.cardblank2{
+  height: 40px;
+  background-color: #801e78;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.cardicon2{
+  font-size: 60px;
+  margin: 10px 32%;
+  color: #A8309F;
+}
+
+.gridient2{
+  background-image: linear-gradient(#CCC3CD,whitesmoke);
+}
