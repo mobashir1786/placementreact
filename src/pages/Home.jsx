@@ -48,25 +48,25 @@ export default function Home() {
           </div>
           <div className="card1">
             <div className="cardnumber1">03</div>
-            <div className="cardblank1"></div>
+            <div className="cardblank3"></div>
             <div className="gridient1">
-              <div className="cardicon1 material-symbols-outlined">dvr</div>
+              <div className="cardicon3 material-symbols-outlined">psychology</div>
               <h4 className="cardcontent1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
             </div>
           </div>
           <div className="card2">
             <div className="gridient2">
               <h4 className="cardcontent2">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
-              <div className="cardicon2 material-symbols-outlined">settings_panorama</div>
+              <div className="cardicon4 material-symbols-outlined">engineering</div>
             </div>
-            <div className="cardblank2"></div>
+            <div className="cardblank4"></div>
             <div className="cardnumber2">04</div>
           </div>
           <div className="card1">
             <div className="cardnumber1">05</div>
-            <div className="cardblank1"></div>
+            <div className="cardblank5"></div>
             <div className="gridient1">
-              <div className="cardicon1 material-symbols-outlined">dvr</div>
+              <div className="cardicon5 material-symbols-outlined">diversity_3</div>
               <h4 className="cardcontent1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h4>
             </div>
           </div>

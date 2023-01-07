@@ -37,6 +37,10 @@ export default function Footer() {
             <span>Kudlu gate, Bengaluru, Karnataka 560068</span>
             <span>Phone: 0804-717-8999</span>
             <span>Email: hi@rubixe.com</span>
+            <span className='footerlogo'>
+              <img src="https://www.freeiconspng.com/thumbs/facebook-logo-png/facebook-f-logo-transparent-facebook-f-22.png" alt="facebook" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/768px-LinkedIn_icon.svg.png" alt="linkedIn" />
+            </span>
           </div>
         </div>
       </div>

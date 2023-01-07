@@ -2,6 +2,9 @@
   /* all the element get this value (universal selector)*/
   box-sizing: border-box;
 }
+button{
+  cursor: pointer;
+}
 
 a {
   text-decoration: none;
@@ -82,7 +85,12 @@ li {
   padding-left: 8vw;
   padding-top: 15px;
 }
-
+.footerlogo>img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
 
 /* home page   */
 .homeFirst {
@@ -133,7 +141,7 @@ li {
   padding:20px 10px;
 }
 .hrbottom{
-  width: 170%;
+  width: 197%;
   height: 50px;
   background-color: green;
   position: relative;
@@ -147,7 +155,7 @@ li {
   grid-template-columns: 40% 60%;
   justify-content: center;
   border: 3px solid black;
-  margin: 20px 20vw;
+  margin: 50px 20vw;
   border-radius: 8px;
 }
 .contactLeft{
@@ -255,4 +263,44 @@ li {
 
 .gridient2{
   background-image: linear-gradient(#CCC3CD,whitesmoke);
+}
+
+.cardblank3{
+  height: 40px;
+  background-color: rgb(228, 157, 25);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cardicon3{
+  font-size: 60px;
+  margin: 10px 32%;
+  color: orange;
+}
+
+
+.cardblank4{
+  height: 40px;
+  background-color: rgb(105, 161, 21);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.cardicon4{
+  font-size: 60px;
+  margin: 10px 32%;
+  color: greenyellow;
+}
+
+.cardblank5{
+  height: 40px;
+  background-color: #bb67b4;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.cardicon5{
+  font-size: 60px;
+  margin: 10px 32%;
+  color: #e17bd9;
 }
